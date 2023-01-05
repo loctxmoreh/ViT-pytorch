@@ -1,11 +1,11 @@
-name: vit
+name: vit2
 channels:
     - pytorch
 dependencies:
     - python=3.8
     - pip
     - pip:
-        - torch==1.7.1+cu110.moreh23.1.1
+        - torch==1.10.0+cu111.moreh23.1.1
         - moreh-driver==23.1.1
         - torchvision
         - torchaudio
